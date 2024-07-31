@@ -10,7 +10,7 @@ interface buttonProps {
 export const Button = ({ buttonText, type, size }: buttonProps) => {
   return (
     <div>
-      testet
+      tgdljff'g
       <button className={`${css[type]} ${css[size]}`}>{buttonText}</button>;
     </div>
   );
