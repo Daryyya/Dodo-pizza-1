@@ -8,7 +8,9 @@ interface buttonProps {
 }
 
 export const Button = ({ buttonText, type, size }: buttonProps) => {
-  return
-  <> <button className={`${css[type]} ${css[size]}`}>{buttonText}</button>;</>
-  
+  return( <div>
+    testet
+    <button className={`${css[type]} ${css[size]}`}>{buttonText}</button>;
+  </div>)
+ 
 };
